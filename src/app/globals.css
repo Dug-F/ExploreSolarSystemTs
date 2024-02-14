@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.hotspot {
+  @apply bg-transparent cursor-pointer hover:shadow-highlight focus:shadow-highlight transition duration-300 ease-in-out
+}
+
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin-bottom: 50px;
+}
