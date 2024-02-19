@@ -35,7 +35,7 @@ The 2 APIs used were:
 
 You can find a link to the deployed site above or at the right-side of this page.
 
-I intend to work further on this project to introduce Tailwind CSS and TypeScript for some further practice in those technologies.  I also intend to improve accessibility for an interface which is currently predominantly mouse-driven.
+I intend to work further on this project to improve accessibility for an interface which is currently predominantly mouse-driven.
 
 [Back to top](#explore-solar-system-project)
 
